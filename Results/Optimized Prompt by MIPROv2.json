@@ -1,0 +1,55 @@
+{
+  "retrieve": {
+    "k": 3
+  },
+  "generate_answer.predict": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "context": [
+          "stabilized following distur- bances in the credit derivatives market in April and May related to developments in the 148 ANNEX SUMMING UP BY THE CHAIRMAN 148 The following remarks by the Chairman were made at the conclusion of the Executive Boards discussion of the Global Financial Stability Report on August 29, 2005. U.S. auto sector, and the corporate credit mar- ket functioned surprisingly smoothly in absorbing downgrades in this sector. Directors observed that this likely reflected the relatively isolated nature of the difficulties as the corpo- rate sector remains broadly healthy, with strong balance sheets and low default rates. However, they considered that the corporate credit cycle appears to be peaking as corpora- tions have begun to increase balance sheet leverage in a variety of ways. This has increased the risk of specific corporate credit events causing corrections in credit derivative and collateralized debt obligation (CDO) markets in the period ahead. Directors noted",
+          "and emerging markets. A number of Directors, however, stressed the need to guard against the potentially destabilizing effect of hedge fund operations and of the growing use of structured products, while preserving the benefits of these innovations in terms of mar- ket efficiency and liquidity. While considering policy measures to miti- gate risks, Directors stressed that ongoing risk management by individual financial institu- tions and supervisory scrutiny by regulators SUMMING UP BY THE CHAIRMAN 149 are the most important lines of defense. In particular, given the risk of corrections in credit derivative and CDO markets, regulators must ensure that financial institutions main- tain robust counterparty risk management practices, not least to contain the spillover effect of market corrections should they occur. Directors also stressed the importance of disclosure and transparency to enhance the flow of information, of the Standards and Codes work to help improve regulatory",
+          "frameworks, and of improving basic financial education especially among individual investors. In the context of rising household indebtedness, mainly in the mortgage market, Directors welcomed the warnings that regula- tors in some major countries have given to their lending institutions to tighten credit standards. For the medium term, the risk of growing global imbalances has to be addressed by a cooperative effort by the major coun- tries, with each adopting policies appropriate to its circumstances. Aspects of Global Asset Allocation Directors welcomed the work undertaken by staff on global asset allocation and the increasing role of institutional investors in financial markets. They noted that a better understanding of the investment patterns of pension funds, insurance companies, mutual funds, and, increasingly, hedge funds would help anticipate the potential for abrupt changes in capital flows across borders and asset classes, with direct relevance to financial stability and to"
+        ],
+        "question": "Can you exract the 10 topic names, don't write numbers Only pull topics from the transcript. Do not use the examples",
+        "reasoning": "I will identify and extract the 10 key topics mentioned in the text without additional descriptions or formatting.",
+        "answer": "1. Global Financial Stability\n2. Corporate Credit Cycle\n3. Risk Management\n4. Counterparty Risk\n5. Market Corrections\n6. Disclosure and Transparency\n7. Regulatory Frameworks\n8. Financial Education\n9. Household Indebtedness\n10. Global Imbalances"
+      },
+      {
+        "question": "Can you identify and extract only the key topics mentioned in the text, without additional descriptions or formatting.",
+        "answer": "1. Global Financial System\\n2. Banking Sector Health\\n3. Monetary Policy\\n4. Financial Stability Risks\\n5. Investment Landscape\\n6. Debt and Leverage\\n7. Economic Impact and Risks\\n8. China's Financial System\\n9. Policymaker Challenges\\n10. Global Economic Outlook\\n11. Banking Sector Vulnerabilities\\n12. Global Systemically Important Banks (GSIBs)\\n13. Regulatory Frameworks\\n14. Policymaking and Economic Growth\\n15. Monetary Policy Normalization\\n16. Nonbank Financial Sector Regulation\\n17. Debt Management\\n18. Emerging Market Resilience\\n19. Household Debt and Economic Growth\\n20. Financial Conditions and Growth Prediction\\n21. Financial Markets\\n22. Financial Vulnerabilities\\n23. Challenges for Policymakers\\n24. China's Economic Situation"
+      }
+    ],
+    "signature": {
+      "instructions": "Given a context and a question, extract the key topics or themes mentioned in the text without additional descriptions or formatting.",
+      "fields": [
+        {
+          "prefix": "Context:",
+          "description": "may contain relevant facts"
+        },
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "${answer}"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "2.6.8",
+      "cloudpickle": "2.2"
+    }
+  }
+}
