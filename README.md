@@ -1,8 +1,6 @@
 # 🌍 ESG Topic Modelling with Structured and Unstructured Sustainability Data
 
-This repository contains the data sources, code, prompts, evaluation metrics, and configuration details for the paper:
-
-**"Integrating AI-Driven Analytics for Enhanced ESG Mapping: Aligning Local and Global Perspectives"**
+This repository documents the methods and results of the study "Integrating AI-Driven Analytics for Enhanced ESG Mapping: Aligning Local and Global Perspectives". The paper is currently under submission.
 
 ## 🧠 Project Overview
 
